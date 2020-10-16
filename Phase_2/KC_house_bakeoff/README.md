@@ -1,8 +1,8 @@
-# Kings County Housing Bake-off:
+# Kings County Housing Bake-off
 
 For many machine learning projects, the goal is to create a model that best predicts the target variable on unseen data. In order to develop a model, we have a general process, but there is a lot of flexibility within this process. Even when working with the same data, people can produce different models by engineering different features, or by selecting certain features to include in the models. **There is no one correct way to create a model**.
 
-For Phase 2, you will be creating a model that will **predict the prices of homes** sold in the Seattle, WA area. For this project there will be **three deliverables**:
+For Phase 2, you will be creating a model that will **predict the prices of homes** sold in the Seattle, WA area. For this project there will be **3 deliverables**:
 
 - a Github repo for this project
 - a notebook showing your final modeling process
@@ -44,7 +44,7 @@ A GitHub repo is a good way to keep track of your work, but also to display the 
 - Your cleaned and annotated notebook showing your work.
 - A folder with all of your 'working' notebooks where you played around with your data and the modeling process.
 
-## Data Set Information:
+## Data Set Information
 
 This data set contains information about houses that were sold in the Seattle area during the last decade. Below is a description of the column names, to help you understand what the data represents. As with most real world data sets, the column names are not perfectly described, so you'll have to do some research or use your best judgment if you have questions relating to what the data means. 
 
@@ -55,17 +55,17 @@ As you go through this modeling process, think about what determines how much so
 Have fun!
 
 # Column Names and descriptions for Kings County Data Set
-* **id** - unique identified for a house
+* **id** - unique ID for a house
 * **date** - Date day house was sold
 * **price** - Price is prediction target
-* **bedrooms** - Number of Bedrooms/House
-* **bathrooms** - Number of bathrooms/bedrooms
+* **bedrooms** - Number of bedrooms
+* **bathrooms** - Number of bathrooms
 * **sqft_living** - square footage of the home
 * **sqft_lot** - square footage of the lot
 * **floors** - Total floors (levels) in house
-* **waterfront** - House which has a view to a waterfront
+* **waterfront** - Whether house has a view to a waterfront
 * **view** - Number of times house has been viewed
-* **condition** - How good the condition is (Overall)
+* **condition** - How good the condition is (overall)
 * **grade** - overall grade given to the housing unit, based on King County grading system
 * **sqft_above** - square footage of house (apart from basement)
 * **sqft_basement** - square footage of the basement
