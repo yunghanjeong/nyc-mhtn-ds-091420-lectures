@@ -6,7 +6,8 @@ For Phase 2, you will be creating a model that will **predict the prices of home
 
 - a Github repo for this project
 - a notebook showing your final modeling process
-- a CSV file of your predictions on the holdout set 
+- a CSV file of your predictions on the holdout set
+	- name this file `housing_preds_your_name.csv` (replacing `your_name` with your name) and send via Slack
 
 ## Holdout predictions
 
